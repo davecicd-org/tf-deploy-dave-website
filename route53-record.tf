@@ -10,7 +10,7 @@
 # }
 
 # Create an A record in the hosted zone
-resource "aws_route53_record" "2waveyyy" {
+resource "aws_route53_record" "waveyyy" {
   zone_id    = "Z00539352S8OFLGNL4UXW"
   name       = var.fqdn
   type       = "A"
